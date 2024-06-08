@@ -1,0 +1,64 @@
+input{
+    font-size:23px;
+    padding-top:17px;
+    padding-bottom: 17px;
+    padding-right:140px;
+    padding-left:20px;
+    border-radius:50px;
+}
+
+body{
+    margin:0;
+}
+
+.first-full{
+    background-image: url("Images/1st backgound 5.jpg");
+    background-size: cover;
+    height:100vh;
+    margin-bottom:0;
+}
+
+.first-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:380px;
+}
+
+.first-page p{
+    font-size: 110px;
+    color:white;
+}
+
+.title{
+    padding-bottom: 50px;
+    font-size:110px;
+}
+
+.images{
+    display:flex;
+    flex-direction: row;
+    column-gap: 10px;
+    height:25vh;
+    justify-content: space-between;
+    padding:40px;
+}
+
+.images img{
+    border-radius: 10px;
+    padding-bottom:30px;
+    padding-top:15px;
+    padding-left:15px;
+    padding-right:15px;
+    background:rgb(180, 172, 172);
+    box-shadow:5px 5px 10px rgba(0,0,0,0.7);
+}
+
+.images img:hover{
+    padding-bottom:35px;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    transition: padding-bottom 0.35s,padding-top 0.35s,padding-left 0.35s,padding-right 0.35s;
+}

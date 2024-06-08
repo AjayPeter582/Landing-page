@@ -1,0 +1,77 @@
+p{
+    border:0;
+    margin:0;
+    padding-top:20px;
+    font-size:20px;
+}
+
+.second-full{
+    background-image: url("Images/blue wallpaper.png");
+    background-size: 200vh;
+    height:100vh;
+    margin-top:0;
+    padding-left:15px;
+    background-size: cover;
+}
+
+.All-media{
+    display:flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top:70px;
+    padding-left:200px;
+    padding-right:250px;
+    padding-top:25px;
+    padding-bottom:20px;
+    border-right: solid white;
+}
+
+.scooter{
+    width:200px;
+}
+
+.scooter img{
+    width: 350%;
+   max-width: 1000px; 
+   height: auto; 
+   margin: auto;
+}
+
+.first-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+    padding-right:600px;
+    margin-top: 50px;
+}
+
+.contact-us p{
+    font-size:80px;
+    color:white;
+    padding:8px;
+    font-family: poppins;
+}
+
+.All-media a{
+    font-size: 30px;
+    color:white;
+    cursor:pointer;
+    margin-left:26px;
+    width:40px;
+    font-family: roboto slab;
+}
+
+.med-img a:hover{
+    font-size:40px;
+    transition:0.35s;
+}
+
+.All-media img{
+    width:50px;
+}
+
+.med-img{
+    display: flex;
+    align-items: center;
+}

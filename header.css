@@ -1,0 +1,56 @@
+
+.option a{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border-style:none solid none none;
+    border-color:white;
+    color:aliceblue;
+    cursor:pointer;
+    font-size: 25px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.option a:hover{
+    font-size:31px;
+    transition: 0.15s;
+}
+
+button{
+    padding:10px;
+    border-radius: 100px;
+    padding-left: 17px;
+    padding-right:17px;
+    background-color: transparent;
+    color:aliceblue;
+    font-size: 20px;
+}
+
+.home-button{
+    border-style:none solid none solid;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    height:110px;
+}
+
+.order{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.option{
+    flex:1;
+    display:flex;
+    justify-content: center;
+}
+
+.option-sub{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
